@@ -1,5 +1,5 @@
 {
-  "name": "aes-crypto",
+  "name": "aes-crypto-thread-safe",
   "version": "1.0.0",
   "description": "library to encrypt decrypt given strings using the given secret key",
   "main": "index.js",
