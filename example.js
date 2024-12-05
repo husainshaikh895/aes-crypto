@@ -1,8 +1,8 @@
 const AesCrypto = require('./index')
 
-secret_key = ('11122233344455566677788822244455555555555555555231231321313aaaff')
+secret_key = ('3c778135777aa80e3d360830cd8a661c')
 
-const encrypted = AesCrypto.encrypt('some-plain-text', secret_key)
+const encrypted = AesCrypto.encrypt('plain-text', secret_key)
 const decrypted = AesCrypto.decrypt(encrypted, secret_key)
 
 console.log('encrypted >>>>>>', encrypted)

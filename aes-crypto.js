@@ -1,8 +1,8 @@
 'use strict'
 
-var AesCrypto = require('./lib/aes-crypto')
+var AesCryptoThreadSafe = require('./lib/aes-crypto')
 
-module.exports = AesCrypto
+module.exports = AesCryptoThreadSafe
 
 // Default import syntax in TypeScript
-module.exports.default = AesCrypto
+module.exports.default = AesCryptoThreadSafe
