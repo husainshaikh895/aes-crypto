@@ -1,6 +1,6 @@
 {
   "name": "aes-crypto-thread-safe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "library to encrypt decrypt given strings using the given secret key",
   "main": "index.js",
   "scripts": {
